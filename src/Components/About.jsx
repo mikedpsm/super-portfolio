@@ -18,25 +18,26 @@ import React from "react";
  */
 import image from "../images/profile-pic.jpg";
 
-const imageAltText = "Maicon in an orange environment using a black jacket and a tattooed hand covering his mouth";
+const imageAltText =
+  "Maicon in an orange environment using a black jacket and a tattooed hand covering his mouth";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a computer science student studying at Anhembi Morumbi University. I enjoy creating highly performant apps, whatever the cost.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Back-end development",
+  "Software engineering",
+  ".NET development",
+  "Laravel development",
+  "NodeJs development",
+  "SQL",
 ];
 
 /**
@@ -45,7 +46,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about creating high performant code to deliver seamless user experience across systems. By leveraging my design experience I continually look for new and better technologies and techniques to make tech more performant.";
 
 const About = () => {
   return (
